@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F7FEE18274DD61000B456DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FEE17274DD61000B456DD /* HomeView.swift */; };
+		6F7FEE1C274DEE1500B456DD /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FEE1B274DEE1500B456DD /* Lobster-Regular.ttf */; };
+		6F7FEE2B274DF05D00B456DD /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FEE29274DF05D00B456DD /* AmaticSC-Regular.ttf */; };
+		6F7FEE2C274DF05D00B456DD /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FEE2A274DF05D00B456DD /* AmaticSC-Bold.ttf */; };
+		6F7FEE30274DF1C200B456DD /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FEE2F274DF1C200B456DD /* Monoton-Regular.ttf */; };
+		6F7FEE34274DF3AE00B456DD /* BungeeOutline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FEE33274DF3AE00B456DD /* BungeeOutline-Regular.ttf */; };
+		6F969F73274E0C80006EE420 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F969F72274E0C80006EE420 /* SignUpView.swift */; };
+		6F969F76274E0D1E006EE420 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F969F75274E0D1E006EE420 /* extension.swift */; };
+		6F969F78274E1E45006EE420 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F969F77274E1E45006EE420 /* SignInView.swift */; };
+		6FD20E71274F385D004F21F6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD20E70274F385D004F21F6 /* Service.swift */; };
 		7A966C34274503FD0033DD9C /* MyScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A966C33274503FD0033DD9C /* MyScheduleApp.swift */; };
 		7A966C36274503FD0033DD9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A966C35274503FD0033DD9C /* ContentView.swift */; };
 		7A966C38274503FF0033DD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A966C37274503FF0033DD9C /* Assets.xcassets */; };
@@ -21,6 +31,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F7FEE17274DD61000B456DD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6F7FEE1B274DEE1500B456DD /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lobster-Regular.ttf"; path = "../../Downloads/Lobster/Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		6F7FEE29274DF05D00B456DD /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		6F7FEE2A274DF05D00B456DD /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		6F7FEE2F274DF1C200B456DD /* Monoton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monoton-Regular.ttf"; sourceTree = "<group>"; };
+		6F7FEE33274DF3AE00B456DD /* BungeeOutline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeOutline-Regular.ttf"; sourceTree = "<group>"; };
+		6F969F72274E0C80006EE420 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6F969F75274E0D1E006EE420 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		6F969F77274E1E45006EE420 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		6FD20E70274F385D004F21F6 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		7A966C30274503FD0033DD9C /* MySchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A966C33274503FD0033DD9C /* MyScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScheduleApp.swift; sourceTree = "<group>"; };
 		7A966C35274503FD0033DD9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,9 +67,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7FEE16274DD5E400B456DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A966C4A274528980033DD9C /* BlurView.swift */,
+				7AA5DF7827462D0F0098D8B5 /* NavBar.swift */,
+				7A966C4727451F250033DD9C /* CustomConer.swift */,
+				7A966C4D27453F700033DD9C /* CustomCalander.swift */,
+				6F7FEE17274DD61000B456DD /* HomeView.swift */,
+				6F969F72274E0C80006EE420 /* SignUpView.swift */,
+				6F969F77274E1E45006EE420 /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F969F74274E0D0C006EE420 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F969F75274E0D1E006EE420 /* extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6FD20E6F274F3846004F21F6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6FD20E70274F385D004F21F6 /* Service.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		7A966C27274503FC0033DD9C = {
 			isa = PBXGroup;
 			children = (
+				6F7FEE1B274DEE1500B456DD /* Lobster-Regular.ttf */,
+				6F7FEE2A274DF05D00B456DD /* AmaticSC-Bold.ttf */,
+				6F7FEE29274DF05D00B456DD /* AmaticSC-Regular.ttf */,
+				6F7FEE2F274DF1C200B456DD /* Monoton-Regular.ttf */,
+				6F7FEE33274DF3AE00B456DD /* BungeeOutline-Regular.ttf */,
 				7A966C32274503FD0033DD9C /* MySchedule */,
 				7A966C31274503FD0033DD9C /* Products */,
 			);
@@ -66,17 +121,15 @@
 		7A966C32274503FD0033DD9C /* MySchedule */ = {
 			isa = PBXGroup;
 			children = (
+				6FD20E6F274F3846004F21F6 /* Networking */,
+				6F969F74274E0D0C006EE420 /* Helper */,
+				6F7FEE16274DD5E400B456DD /* View */,
 				7A966C502745462B0033DD9C /* Model */,
 				7A966C33274503FD0033DD9C /* MyScheduleApp.swift */,
 				7A966C35274503FD0033DD9C /* ContentView.swift */,
-				7A966C4D27453F700033DD9C /* CustomCalander.swift */,
 				7A966C37274503FF0033DD9C /* Assets.xcassets */,
 				7A966C3C274503FF0033DD9C /* Info.plist */,
 				7A966C39274503FF0033DD9C /* Preview Content */,
-				7A966C4727451F250033DD9C /* CustomConer.swift */,
-				7A966C4A274528980033DD9C /* BlurView.swift */,
-				7AA5DF7827462D0F0098D8B5 /* NavBar.swift */,
-				7AE60D23274A0AB600554206 /* ScheduleVM.swift */,
 			);
 			path = MySchedule;
 			sourceTree = "<group>";
@@ -92,6 +145,7 @@
 		7A966C502745462B0033DD9C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7AE60D23274A0AB600554206 /* ScheduleVM.swift */,
 				7A966C512745463A0033DD9C /* DateModel.swift */,
 				7AD1B530274644F500EF68B6 /* TaskModel.swift */,
 			);
@@ -155,7 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7FEE30274DF1C200B456DD /* Monoton-Regular.ttf in Resources */,
+				6F7FEE34274DF3AE00B456DD /* BungeeOutline-Regular.ttf in Resources */,
+				6F7FEE2B274DF05D00B456DD /* AmaticSC-Regular.ttf in Resources */,
+				6F7FEE2C274DF05D00B456DD /* AmaticSC-Bold.ttf in Resources */,
 				7A966C3B274503FF0033DD9C /* Preview Assets.xcassets in Resources */,
+				6F7FEE1C274DEE1500B456DD /* Lobster-Regular.ttf in Resources */,
 				7A966C38274503FF0033DD9C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,13 +227,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA5DF7927462D0F0098D8B5 /* NavBar.swift in Sources */,
+				6FD20E71274F385D004F21F6 /* Service.swift in Sources */,
 				7AD1B531274644F500EF68B6 /* TaskModel.swift in Sources */,
 				7AE60D24274A0AB600554206 /* ScheduleVM.swift in Sources */,
+				6F969F76274E0D1E006EE420 /* extension.swift in Sources */,
 				7A966C522745463A0033DD9C /* DateModel.swift in Sources */,
+				6F969F73274E0C80006EE420 /* SignUpView.swift in Sources */,
 				7A966C36274503FD0033DD9C /* ContentView.swift in Sources */,
 				7A966C4E27453F700033DD9C /* CustomCalander.swift in Sources */,
 				7A966C4B274528980033DD9C /* BlurView.swift in Sources */,
 				7A966C4827451F250033DD9C /* CustomConer.swift in Sources */,
+				6F7FEE18274DD61000B456DD /* HomeView.swift in Sources */,
+				6F969F78274E1E45006EE420 /* SignInView.swift in Sources */,
 				7A966C34274503FD0033DD9C /* MyScheduleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

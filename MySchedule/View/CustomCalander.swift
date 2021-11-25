@@ -153,6 +153,7 @@ struct CustomCalender: View {
             }
 
             TaskView(addTask: self.$addTask, currentDate: $currentDate)
+                .ignoresSafeArea(.keyboard, edges: .bottom)
           
 
         }

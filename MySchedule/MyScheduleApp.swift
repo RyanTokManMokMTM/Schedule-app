@@ -11,8 +11,9 @@ import SwiftUI
 struct MyScheduleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                
+            HomeView()
+//                .ignoresSafeArea(.keyboard, edges: .all)
+                .statusBar(hidden: true)
         }
     }
 }
